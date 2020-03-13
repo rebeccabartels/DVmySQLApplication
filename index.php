@@ -16,11 +16,15 @@
         var xhr = new XMLHttpRequest();
         console.log(xhr)
         xhr.open('GET', '2012CtCrimeData.xml', true)
+        console.log("READYSTATE: ", xhr.readyState);
+        //xhr.onprogress = function(){console.log('READYSTATE: ', xhr.readyState)} if we want a loader 
         xhr.onload = function(){
             if(this.status ==200){
                 console.log(this.responseText)
             }
+
         }
+
         xhr.send();
     } </script>
 
