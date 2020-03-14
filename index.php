@@ -5,12 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet" type="text/css">
   <title>Ajax 1 - Text File</title>
 </head>
 <body>
   <button id="button">Get Text File</button>
   <br><br>
   <div id="text"></div>
+
+  <?php include('login.php');?>
 
   <script>
     // Create event listener
