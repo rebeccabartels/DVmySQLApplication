@@ -8,3 +8,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 ?>
+
+<?php
+require_once("getuser.php");
+require_once("users.php");
+?>
